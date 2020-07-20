@@ -16,11 +16,11 @@ public class VectorClass {
 		
 		System.out.println(countries);				//printing object of list
 		
-		for(String country : countries) {			//iteration using for-each loop
+		for(String country : countries) {			//iteration using for-each loop (works on element)
 			System.out.println(country);
 		}
 		
-		for(int i=0; i<countries.length(); i++){		//iteration using for loop
+		for(int i=0; i<countries.length(); i++){		//iteration using for loop (works on index)
 			System.out.println(countries.get(i));
 		}	
 	}
