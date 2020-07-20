@@ -16,8 +16,12 @@ public class VectorClass {
 		
 		System.out.println(countries);
 		
-		for(String country : countries) {
+		for(String country : countries) {			//iteration using for-each loop
 			System.out.println(country);
+		}
+		
+		for(int i=0; i<countries.length(); i++){		//iteration using for loop
+			System.out.println(countries.get(i));
 		}	
 	}
 }
