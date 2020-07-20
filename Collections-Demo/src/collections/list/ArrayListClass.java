@@ -7,14 +7,14 @@ public class ArrayListClass {
 
 	public static void main(String[] args) {
 		
-		List<String> countries = new ArrayList<String>();		//insertion order is maintained and it is not synchronized
+		List<String> countries = new ArrayList<String>();	//insertion order is maintained and it is not synchronized
 		countries.add("India");
 		countries.add("USA");
 		countries.add("China");
 		countries.add("Germany");
 		countries.add("India");
 		
-		System.out.println(countries);
+		System.out.println(countries);				//printing object of list
 		
 		for(String country : countries) {			//iteration using for-each loop
 			System.out.println(country);
