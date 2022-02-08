@@ -16,9 +16,13 @@ public class HashMapClass {
 		
 		System.out.println(numbers);
 		
-		for(Integer key : numbers.keySet()) {
+		for(Integer key : numbers.keySet()) {	//iteration using external for-each loop also known as enhanced for loop (works on element)
 			String country = numbers.get(key);
 			System.out.println(key + "=" + country);
-		}	
+		}
+		
+		numbers.forEach( (key, country) -> { 	//iteration using internal for-each loop (works on element) (Java 8 feature)
+			System.out.println(key + "=" + country);
+		});	
 	}
 }
