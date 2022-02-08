@@ -22,7 +22,7 @@ public class ArrayListClass {
 		
 		countries.forEach(country -> System.out.println(country)); //iteration using internal for-each loop (works on element) (Java 8 feature)
 		
-		for(int i=0; i<countries.length(); i++){		//iteration using for loop (works on index)
+		for(int i=0; i<countries.size(); i++){			//iteration using for loop (works on index)
 			System.out.println(countries.get(i));
 		}
 	}
