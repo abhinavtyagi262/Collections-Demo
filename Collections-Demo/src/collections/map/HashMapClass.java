@@ -22,7 +22,7 @@ public class HashMapClass {
 		}
 		
 		numbers.forEach( (key, country) -> { 	//iteration using internal for-each loop (works on element) (Java 8 feature)
-			System.out.println(key + "=" + country);
+			System.out.println(key + "=" + country);   // -> (arrow symbol) is known as lambda
 		});	
 	}
 }
