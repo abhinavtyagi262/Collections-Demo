@@ -16,9 +16,11 @@ public class ArrayListClass {
 		
 		System.out.println(countries);				//printing object of list
 		
-		for(String country : countries) {			//iteration using for-each loop (works on element)
+		for(String country : countries) {			//iteration using external for-each loop also known as enhanced for loop (works on element)
 			System.out.println(country);
 		}
+		
+		countries.forEach(country -> System.out.println(country)); //iteration using internal for-each loop (works on element) (Java 8 feature)
 		
 		for(int i=0; i<countries.length(); i++){		//iteration using for loop (works on index)
 			System.out.println(countries.get(i));
