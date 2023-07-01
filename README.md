@@ -5,4 +5,4 @@ List: ArrayList, Vector
 
 Set: HashSet, TreeSet
 
-Map: HashMap, ConcurrentHashMap, LinkedHashMap, TreeMap
+Map: HashMap, ConcurrentHashMap, LinkedHashMap, TreeMap, Hashtable
